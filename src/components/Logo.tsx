@@ -51,11 +51,18 @@ const Logo = forwardRef<any, Props>(({ disabledLink = false, sx }, ref) => {
     </Box>
   );
 
-  if (disabledLink) {
-    return <>{logo}</>;
-  }
 
-  return <NextLink href="/">{logo}</NextLink>;
+  // if (disabledLink) {
+  //   return <>{logo}</>;
+  // }
+
+  // return <NextLink href="/">{logo}</NextLink>;
+
+  return (
+    <Box ref={ref} sx={{ width: 45, height: 45, ml:0.2 , cursor: 'pointer', ...sx }}>
+      <img src="/logo/devbite_logo_transparent.png" alt="" />
+    </Box>
+  )
 });
 
 export default Logo;
