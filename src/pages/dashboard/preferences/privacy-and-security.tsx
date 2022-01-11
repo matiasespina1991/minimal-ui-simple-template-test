@@ -19,7 +19,7 @@ export default function PageFive() {
   const { themeStretch } = useSettings();
 
   return (
-    <Page title="Page Five">
+    <Page title="Privacy and Security">
       <Container maxWidth={themeStretch ? false : 'xl'}>
         <Typography variant="h3" component="h1" paragraph>
           Privacy and Security

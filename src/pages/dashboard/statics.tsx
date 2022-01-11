@@ -19,7 +19,7 @@ export default function PageTwo() {
   const { themeStretch } = useSettings();
 
   return (
-    <Page title="Page Two">
+    <Page title="Statics">
       <Container maxWidth={themeStretch ? false : 'xl'}>
         <Typography variant="h3" component="h1" paragraph>
           Statics

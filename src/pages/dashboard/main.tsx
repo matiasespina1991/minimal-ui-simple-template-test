@@ -19,7 +19,7 @@ export default function PageOne() {
   const { themeStretch } = useSettings();
 
   return (
-    <Page title="Page One">
+    <Page title="Dashboard">
       <Container maxWidth={themeStretch ? false : 'xl'}>
         <Typography variant="h3" component="h1" paragraph>
           Dashboard

@@ -19,10 +19,10 @@ export default function PageSix() {
   const { themeStretch } = useSettings();
 
   return (
-    <Page title="Page Six">
+    <Page title="Error Logs">
       <Container maxWidth={themeStretch ? false : 'xl'}>
         <Typography variant="h3" component="h1" paragraph>
-          System
+          Error Logs
         </Typography>
         <Typography gutterBottom>
           Curabitur turpis. Vestibulum facilisis, purus nec pulvinar iaculis, ligula mi congue nunc,

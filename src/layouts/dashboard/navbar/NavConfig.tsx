@@ -40,7 +40,7 @@ const sidebarConfig = [
         children: [
           { title: 'Appearence', path: '/dashboard/preferences/appearence' },
           { title: 'Privacy and security', path: '/dashboard/preferences/privacy-and-security' },
-          { title: 'System', path: '/dashboard/preferences/system' },
+          { title: 'Error Logs', path: '/dashboard/preferences/error-logs' },
         ],
       },
     ],

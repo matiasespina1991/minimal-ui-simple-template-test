@@ -19,7 +19,7 @@ export default function PageThree() {
   const { themeStretch } = useSettings();
 
   return (
-    <Page title="Page Three">
+    <Page title="Dates">
       <Container maxWidth={themeStretch ? false : 'xl'}>
         <Typography variant="h3" component="h1" paragraph>
           Dates
