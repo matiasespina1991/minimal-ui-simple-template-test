@@ -24,7 +24,7 @@ const sidebarConfig = [
       { title: 'Dashboard', path: '/dashboard/main', icon: ICONS.dashboard },
       { title: 'Purchases', path: '/dashboard/purchases', icon: ICONS.ecommerce },
       { title: 'Dates', path: '/dashboard/dates', icon: ICONS.calendar },
-      { title: 'Statics', path: '/dashboard/statics', icon: ICONS.analytics },
+      { title: 'Statistics', path: '/dashboard/statistics', icon: ICONS.analytics },
     ],
   },
 
