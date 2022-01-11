@@ -90,7 +90,11 @@ export default function NavbarVertical({ isOpenSidebar, onCloseSidebar }: Props)
 
       {/* {!isCollapse && <NavbarDocs />} */}
       <Button
-        sx={{ color: 'white' }}
+        sx={{ 
+          color: 'white',
+          width: '100%',
+          p: 1.2,
+        }}
         variant='contained'
       >
         Try it now!
